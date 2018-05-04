@@ -1,5 +1,5 @@
 #ifndef __RX_INNER_REFS__H
-
+#define __RX_INNER_REFS__H
 #import "RxDefs.h"
 #import "RxThreadUtil.h"
 #import "RxRunTimeUtil.h"

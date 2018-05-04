@@ -459,19 +459,19 @@
     for(int i=1;i<sig.numberOfArguments;i++){
         const char* type = [sig getArgumentTypeAtIndex:i];
         RxEncodeType typeCode = [RxEncodeTypeUtil getEncodeType:type];
-        PAC_NUM_TYPE(EncodeCharType,char);
+        PAC_NUM_TYPE(EncodeCharType,int);
         PAC_NUM_TYPE(EncodeIntType,int);
-        PAC_NUM_TYPE(EncodeShortType,short);
+        PAC_NUM_TYPE(EncodeShortType,int);
         PAC_NUM_TYPE(EncodeLongType,long);
         PAC_NUM_TYPE(EncodeLongLongType,long long);
-        PAC_NUM_TYPE(EncodeUCharType, unsigned char);
+        PAC_NUM_TYPE(EncodeUCharType, int);
         PAC_NUM_TYPE(EncodeUIntType, unsigned int);
-        PAC_NUM_TYPE(EncodeUShortType, unsigned short);
+        PAC_NUM_TYPE(EncodeUShortType, int);
         PAC_NUM_TYPE(EncodeULongType, unsigned long);
         PAC_NUM_TYPE(EncodeULongLongType, unsigned long long);
-        PAC_NUM_TYPE(EncodeFloatType,float);
+        PAC_NUM_TYPE(EncodeFloatType,double);
         PAC_NUM_TYPE(EncodeDoubleType,double);
-        PAC_NUM_TYPE(EncodeBoolType,BOOL);
+        PAC_NUM_TYPE(EncodeBoolType,int);
         if(typeCode == EncodeSELType || typeCode == EncodePointerType ||
                 typeCode==EncodeFuncType || typeCode==EncodeMultiPointerType){
             void* point = va_arg(list, void*);
@@ -494,7 +494,7 @@
     NSInvocation* invocation = [NSInvocation rx_invocationWithBlock:block];
     NSMethodSignature *sig = invocation.methodSignature;
     //EasyLog(@">>>numberOfArguments:%d",sig.numberOfArguments);
-    int argCount = sig.numberOfArguments - 1;
+    int argCount = (int)(sig.numberOfArguments - 1);
     for(NSUInteger i=1;i <= argCount ;i++){
         const char* type = [sig getArgumentTypeAtIndex:i];
         RxEncodeType typeCode = [RxEncodeTypeUtil getEncodeType:type];
@@ -529,13 +529,13 @@
     }
     __autoreleasing NSInvocation* invocation = [NSInvocation rx_invocationWithBlock:block];
     NSMethodSignature *sig = invocation.methodSignature;
-    int argCount = sig.numberOfArguments - 1;
+    int argCount = (int)(sig.numberOfArguments - 1);
     int index = 1;
     for(NSUInteger i=0;i<sig.numberOfArguments-1;i++){
         const char* type = [sig getArgumentTypeAtIndex:index];
         RxEncodeType typeCode = [RxEncodeTypeUtil getEncodeType:type];
         if(typeCode == EncodeCharType){
-            char arg = va_arg(list, char);
+            char arg = va_arg(list, int);
             __autoreleasing RxProxyMem* mem=[RxProxyMem new];
             mem->_value.c = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入
@@ -545,7 +545,7 @@
             mem->_value.i = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入
         }else if(typeCode == EncodeShortType){
-            short arg = va_arg(list, short);
+            short arg = va_arg(list, int);
             __autoreleasing RxProxyMem* mem=[RxProxyMem new];
             mem->_value.s = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入
@@ -560,7 +560,7 @@
             mem->_value.q = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入
         }else if(typeCode == EncodeUCharType){
-            unsigned char arg = va_arg(list,unsigned char);
+            unsigned char arg = va_arg(list,int);
             __autoreleasing RxProxyMem* mem=[RxProxyMem new];
             mem->_value.S = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入
@@ -570,7 +570,7 @@
             mem->_value.I = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入
         }else if(typeCode == EncodeUShortType){
-            unsigned short arg = va_arg(list,unsigned short);
+            unsigned short arg = va_arg(list,int);
             __autoreleasing RxProxyMem* mem=[RxProxyMem new];
             mem->_value.S = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入
@@ -585,7 +585,7 @@
             mem->_value.Q = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入
         }else if(typeCode == EncodeFloatType){
-            float arg = va_arg(list,float);
+            float arg = va_arg(list,double);
             __autoreleasing RxProxyMem* mem=[RxProxyMem new];
             mem->_value.f = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入
@@ -595,7 +595,7 @@
             mem->_value.d = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入
         }else if(typeCode == EncodeBoolType){
-            BOOL arg = va_arg(list,BOOL);
+            BOOL arg = va_arg(list,int);
             __autoreleasing RxProxyMem* mem=[RxProxyMem new];
             mem->_value.B = arg;
             [invocation setArgument:mem->_addr atIndex:index];//参数传入

@@ -42,7 +42,7 @@ typedef NS_ENUM(NSInteger,RxEncodeType){
     EncodeUnKnownType
 };
 
-typedef union RxValue{
+typedef union _RxValue{
     BOOL B;
     char c;
     int i;
@@ -57,13 +57,13 @@ typedef union RxValue{
     unsigned long L;
     unsigned long long Q;
     void* p;
-};
+}RxValue;
 
 @interface RxProxyMem:NSObject
 {
 @public
     void* _addr;
-    union RxValue _value;
+    RxValue _value;
     BOOL needFreeValuePoint;
 }
 @end
@@ -95,8 +95,8 @@ typedef void (^RxInvokeAfterIntercept)(NSObject *target,SEL sel,NSInvocation *in
  * 分几种情况
  * 1 基本数据类型int char short long float double用NSNumber封装
  * 2 结构体,联合体,基本数据类型数组,结构体数组，联合体数组 用NSValue封装
- *          (函数是[NSValue value:&v withObjCType:@encode(struct MyStru)])
- *          int intarr[4]={1,2,3,4}; --->[NSValue value:&intarr withObjCType:@encode(intarr)]
+ *          (函数是[NSValue value:&v withObjCType:@ encode(struct MyStru)])
+ *          int intarr[4]={1,2,3,4}; --->[NSValue value:&intarr withObjCType:@ encode(intarr)]
  * 3 指针类型用NSValue封装 [NSValue valueWithPointer:@selector(doDefaultAction:)]
  * 4 OC对象直接写入
  * 5 如果已经自己写了invocation的returnValue，可不设置返回值到returnValue

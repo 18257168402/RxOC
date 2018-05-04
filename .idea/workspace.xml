@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0dacaee2-de35-4490-b62a-2671125bfc0a" name="Default" comment="" />
+    <list default="true" id="0dacaee2-de35-4490-b62a-2671125bfc0a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RxOC.xcodeproj/project.xcworkspace/xcuserdata/lishusheng.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/RxOC.xcodeproj/project.xcworkspace/xcuserdata/lishusheng.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/rx/RxInnerDefs.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/rx/RxInnerDefs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/thread/NSMethodSignature+RxBlock.m" beforeDir="false" afterPath="$PROJECT_DIR$/source/thread/NSMethodSignature+RxBlock.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/thread/RxProxyUtil.h" beforeDir="false" afterPath="$PROJECT_DIR$/source/thread/RxProxyUtil.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/thread/RxProxyUtil.m" beforeDir="false" afterPath="$PROJECT_DIR$/source/thread/RxProxyUtil.m" afterDir="false" />
+    </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/RxOC-aiqecubimrmtbugphvoycswrcdyc/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,93 +20,77 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_CC1DD74F-F139-4AAE-AA9D-164C84EEE69D" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ViewController.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RxOC/ViewController.m">
+      <file leaf-file-name="RxDefs.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/rx/RxDefs.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="51" column="92" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
+            <state relative-caret-position="175">
+              <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RxInnerDefs.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/rx/RxInnerDefs.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
               <folding>
-                <element signature="e#120#146#0" expanded="true" />
+                <element signature="e#28#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NSNotification.h" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSNotification.h">
+      <file leaf-file-name="RxProxyUtil.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/thread/RxProxyUtil.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="49" column="45" selection-start-line="49" selection-start-column="45" selection-end-line="49" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NSNotificationCenter+Rx.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/category/NSNotificationCenter+Rx.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RxOCTests.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/rx/RxOCTests.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="RxOCTests.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/rx/RxOCTests.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="5064">
+              <caret line="744" column="22" lean-forward="true" selection-start-line="744" selection-start-column="22" selection-end-line="744" selection-end-column="22" />
               <folding>
-                <element signature="e#88#109#0" expanded="true" />
+                <element signature="e#175#199#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NSInvocation+RxBlock.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/thread/NSInvocation+RxBlock.h">
+      <file leaf-file-name="RxThreadUtil.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/thread/RxThreadUtil.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NSObject+Rx.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/category/NSObject+Rx.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="308" column="40" selection-start-line="308" selection-start-column="40" selection-end-line="308" selection-end-column="40" />
+            <state relative-caret-position="491">
+              <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
               <folding>
-                <element signature="e#128#153#0" expanded="true" />
+                <element signature="e#121#144#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NSMethodSignature+RxBlock.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/thread/NSMethodSignature+RxBlock.h">
+      <file leaf-file-name="RxOC.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/rx/RxOC.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="323">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding>
+                <element signature="e#112#133#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NSMethodSignature+RxBlock.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/thread/NSMethodSignature+RxBlock.m">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="RxEventSource.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/rx/RxEventSource.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="NSKeyValueObserving.h" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSKeyValueObserving.h">
+      <file leaf-file-name="RxOC.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/rx/RxOC.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+            <state relative-caret-position="88">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -118,12 +109,17 @@
       <find>gc_observeNotificationForName</find>
       <find>GCObserveObject</find>
       <find>onNext</find>
+      <find>RxInnerDefs</find>
+      <find>__RX_INNER_REFS__H</find>
     </findStrings>
     <replaceStrings>
       <replace>RxWeakWrapper</replace>
       <replace>RXWEAKDECL</replace>
       <replace>RXWEAKSELF_DECLARE</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -152,6 +148,7 @@
         <option value="$PROJECT_DIR$/source/thread/NSInvocation+RxBlock.h" />
         <option value="$PROJECT_DIR$/source/thread/NSMethodSignature+RxBlock.h" />
         <option value="$PROJECT_DIR$/RxOC/ViewController.m" />
+        <option value="$PROJECT_DIR$/source/rx/RxInnerDefs.h" />
       </list>
     </option>
   </component>
@@ -162,11 +159,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="272" />
-    <option name="y" value="30" />
-    <option name="width" value="1420" />
-    <option name="height" value="789" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="683" />
+    <option name="y" value="331" />
+    <option name="width" value="1077" />
+    <option name="height" value="706" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -187,12 +184,14 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,18 +202,30 @@
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="RxOC" type="1d218c8b:XcodeProjectNode" />
-              <item name="RxOC" type="fcab9f18:XcodeViewNode" />
+              <item name="source" type="fcab9f18:XcodeViewNode" />
             </path>
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="RxOC" type="1d218c8b:XcodeProjectNode" />
               <item name="source" type="fcab9f18:XcodeViewNode" />
+              <item name="common" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="RxOC" type="1d218c8b:XcodeProjectNode" />
+              <item name="source" type="fcab9f18:XcodeViewNode" />
+              <item name="rx" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="RxOC" type="1d218c8b:XcodeProjectNode" />
+              <item name="source" type="fcab9f18:XcodeViewNode" />
+              <item name="thread" type="fcab9f18:XcodeViewNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,37 +264,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525404048355</updated>
-      <workItem from="1525404049934" duration="7180000" />
+      <workItem from="1525404049934" duration="7802000" />
+      <workItem from="1525420407388" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7180000" />
+    <option name="totallyTimeSpent" value="8393000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-151" y="30" width="1420" height="789" extended-state="0" />
+    <frame x="683" y="331" width="1077" height="706" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="PlantUML" />
+      <window_info anchor="right" id="PlantUML" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.37518686" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27952167" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22786647" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.37372014" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.278157" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25797102" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -309,9 +321,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/common/RxWeakWrapper.m">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/rx/RxEmitter.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -340,25 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxEventSource.m">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxInnerDefs.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxOC.m">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxOCTransform.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxRuntime.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/rx/RxRuntime.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -369,9 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxScheduler.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/rx/RxScheduler.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -379,26 +366,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxSubcription.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxSubcription.m">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RxOC/AppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/rx/RxOCTransform.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="317" column="30" selection-start-line="317" selection-start-column="30" selection-end-line="317" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxDefs.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -416,16 +387,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/thread/RxProxyUtil.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="744" column="22" lean-forward="true" selection-start-line="744" selection-start-column="22" selection-end-line="744" selection-end-column="22" />
-          <folding>
-            <element signature="e#175#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/thread/RxThreadUtil.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -433,20 +394,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/thread/RxThreadUtil.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1137">
-          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/common/RxRunTimeUtil.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#122#155#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,16 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#130#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxOC.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -495,9 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/rx/RxOCTests.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/category/NSObject+Rx.m">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -507,9 +445,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/thread/NSMethodSignature+RxBlock.m">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/thread/NSMethodSignature+RxBlock.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -551,10 +486,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RxOC/ViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="51" column="92" selection-start-line="51" selection-start-column="92" selection-end-line="51" selection-end-column="92" />
+        <state relative-caret-position="276">
+          <caret line="55" column="83" lean-forward="true" selection-start-line="55" selection-start-column="83" selection-end-line="55" selection-end-column="83" />
           <folding>
             <element signature="e#120#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/rx/RxOC.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/rx/RxOC.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="e#112#133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/rx/RxEventSource.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/thread/RxThreadUtil.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+          <folding>
+            <element signature="e#121#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/rx/RxDefs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/rx/RxInnerDefs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="47" column="18" lean-forward="true" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+          <folding>
+            <element signature="e#28#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/thread/RxProxyUtil.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5064">
+          <caret line="744" column="22" lean-forward="true" selection-start-line="744" selection-start-column="22" selection-end-line="744" selection-end-column="22" />
+          <folding>
+            <element signature="e#175#199#0" expanded="true" />
           </folding>
         </state>
       </provider>

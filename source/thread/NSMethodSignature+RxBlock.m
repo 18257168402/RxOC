@@ -37,7 +37,7 @@ typedef struct GC_Block {
 +(NSMethodSignature *)rx_methodSignatureWithBlock:(id)block{
     GCBlockRef layout = (__bridge void *)block;
     if (!(layout->flags & GCBlockFlagsHasSignature)) {
-        NSString *description = [NSString stringWithFormat:@"The block %@ doesn't contain a type signature.", block];
+        //NSString *description = [NSString stringWithFormat:@"The block %@ doesn't contain a type signature.", block];
         return nil;
     }
     void *desc = layout->descriptor;
@@ -46,7 +46,7 @@ typedef struct GC_Block {
         desc += 2 * sizeof(void *);
     }
     if (!desc) {
-        NSString *description = [NSString stringWithFormat:@"The block %@ doesn't has a type signature.", block];
+       // NSString *description = [NSString stringWithFormat:@"The block %@ doesn't has a type signature.", block];
         return nil;
     }
     const char *signature = (*(const char **)desc);
